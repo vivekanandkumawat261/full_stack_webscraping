@@ -2,9 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <div className="text-red-500 text-3xl">Tailwind works!</div>
   )
 }
 
