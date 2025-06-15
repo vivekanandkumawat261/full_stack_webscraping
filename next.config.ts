@@ -1,7 +1,5 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  // No need for appDir in Next.js 15
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default nextConfig

@@ -1,9 +1,10 @@
-import React from 'react'
-
+import './globals.css'
 const Home = () => {
-  return (
-    <div className="text-red-500 text-3xl">Tailwind works!</div>
-  )
+    return (
+        <div className="text-4xl text-red-500 font-bold">
+      Tailwind is working!
+    </div>
+    )
 }
 
 export default Home
