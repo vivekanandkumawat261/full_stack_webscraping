@@ -17,7 +17,8 @@
     "nodemailer": "^7.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "supports-color": "^8.1.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
