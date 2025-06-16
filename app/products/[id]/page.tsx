@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Modal from "@/components/Model";
+import { Metadata } from "next";
 
 // type Props = {
 //   params: { id: string };
@@ -23,6 +24,13 @@ type Props = {
     id: string;
   };
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  return {
+    title: `Product: ${params.id}`,
+  };
+}
+ 
 
 const ProductDetails = async ({ params }: Props) => {
   const { id } = params;
