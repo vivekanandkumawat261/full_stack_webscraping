@@ -10,8 +10,18 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import Modal from "@/components/Model";
 
+// type Props = {
+//   params: { id: string };
+// };
+
+// const ProductDetails = async ({ params }: Props) => {
+//   const { id } = params;
+
+
 type Props = {
-  params: { id: string };
+  params: {
+    id: string;
+  };
 };
 
 const ProductDetails = async ({ params }: Props) => {
